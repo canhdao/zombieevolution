@@ -1,6 +1,6 @@
 cc.Class({
     extends: cc.Component,
-
+/*
     properties: {
         label: {
             default: null,
@@ -9,14 +9,14 @@ cc.Class({
         // defaults, set visually when attaching this script to the Canvas
         text: 'Hello, World!'
     },
-
-    // use this for initialization
+*/
     onLoad: function () {
-        this.label.string = this.text;
+        //this.label.string = this.text;
+		cc.debug.setDisplayStats(false);
     },
 
-    // called every frame
     update: function (dt) {
 
     },
+
 });
